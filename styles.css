@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* input{
+	width:40px;
+	height:40px;
+	font-size:30px;
+	text-align:center;
+}
+input::placeholder{
+	font-size:40px;
+	position:relative;
+	top:5px; */
+
+.code-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      
+      /* set styles for each input */
+      .code {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+        margin: 0 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+      }
+      
+      /* set styles for the input when it is focused */
+      .code:focus {
+        border-color: blue;
+      }
+	left:10px;
+}
